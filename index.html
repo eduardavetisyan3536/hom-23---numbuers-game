@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Dongle&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="canvas">
+      <div class="top-box">
+        <h1 class="top-box-title">Guess the number</h1>
+        <p class="top-box-subtitle">The AI guessed a number from 0 to 100</p>
+      </div>
+      <div class="field">
+        <lable for="field_lable" class="field_lable">
+          Your number:
+        </lable>
+        <input type="text" class="build_input">
+        <button class="field_btn">Submit</button>
+      </div>
+      <div class="result">
+        <span class="check_lable">Result:</span>
+        <span class="check_out"></span>
+      </div>
+      <div class="Haven't figured it out yet...help">
+        <span class="help_lable">Hint:</span>
+        <span class="help_out"></span>
+      </div>
+      <div class="count">
+        <span class="count_lable">Number of attempts:</span>
+        <span class="count_out"></span>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
